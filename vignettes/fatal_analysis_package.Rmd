@@ -32,7 +32,8 @@ An exmaple of the use of this package is the function `fars_read()`, that chack 
 fars_read("data/accident_2013.csv")
 ```
 
-```{r include=FALSE}
-load("data/accident_2013.rda")
-print(accident_2013);rm(accident_2013)
+```{r echo=FALSE}
+# load("data/accident_2013.rda")
+# print(accident_2013); rm(accident_2013)
+packagetestcoursera::fars_map_state()
 ```
