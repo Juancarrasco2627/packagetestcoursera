@@ -13,3 +13,5 @@ Suggests:
     rmarkdown
 VignetteBuilder: knitr
 URL: https://github.com/Juancarrasco2627/packagetestcoursera
+Depends: 
+    R (>= 2.10)
